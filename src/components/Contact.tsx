@@ -9,12 +9,12 @@ interface FaqItem {
 
 const FAQS: FaqItem[] = [
   {
-    question: 'What is the best time of day for a beach photoshoot in Goa?',
+    question: 'What is the best time of day for a beach photoshoot in India?',
     answer: 'We exclusively shoot during the magical golden hours: either early morning sunrise (6:30 AM – 8:00 AM) when the beaches are quiet and the sea breeze is calm, or late afternoon sunset (5:00 PM – 6:45 PM) for warm, luminous coastal light.',
   },
   {
-    question: 'Which locations across North and South Goa do you cover?',
-    answer: 'We cover iconic locations throughout Goa including Candolim, Calangute, Baga, Vagator cliffs, Morjim shores, Chapora riverbanks, as well as heritage Portuguese Latin quarters (Fontainhas) and private resort lawns.',
+    question: 'Which locations across North and South India do you cover?',
+    answer: 'We cover iconic locations throughout India including Candolim, Calangute, Baga, Vagator cliffs, Morjim shores, Chapora riverbanks, as well as heritage Portuguese Latin quarters (Fontainhas) and private resort lawns.',
   },
   {
     question: 'How quickly do we receive our edited photos?',
@@ -50,7 +50,7 @@ export const Contact: React.FC = () => {
     if (preferredDate) msg += `Date: ${encodeURIComponent(preferredDate)}%0A`;
     msg += `People: ${encodeURIComponent(guestCount)}%0A`;
     if (customNotes) msg += `Notes: ${encodeURIComponent(customNotes)}%0A`;
-    msg += `%0AI would like to check your availability and package pricing in Goa. Thank you!`;
+    msg += `%0AI would like to check your availability and package pricing in India. Thank you!`;
     return `https://wa.me/${BUSINESS_INFO.phoneCall.replace('+', '')}/?text=${msg}`;
   };
 
@@ -78,7 +78,7 @@ export const Contact: React.FC = () => {
             Let's Create Your Photos Together
           </h2>
           <p className="text-sm sm:text-base text-slate-600">
-            Reach out via WhatsApp or phone call to discuss dates, timing, locations, and styling for your Goa photoshoot.
+            Reach out via WhatsApp or phone call to discuss dates, timing, locations, and styling for your India photoshoot.
           </p>
         </div>
 
@@ -257,7 +257,7 @@ export const Contact: React.FC = () => {
 
                   <div>
                     <label className="block text-xs font-semibold text-slate-700 mb-1.5">
-                      Preferred Date in Goa
+                      Preferred Date in India
                     </label>
                     <input
                       type="date"
@@ -351,7 +351,7 @@ export const Contact: React.FC = () => {
                 <span>FREQUENTLY ASKED QUESTIONS</span>
               </div>
               <h3 className="font-serif text-2xl sm:text-3xl font-normal text-slate-900">
-                Planning Your Goa Photoshoot
+                Planning Your India Photoshoot
               </h3>
               <p className="text-xs sm:text-sm text-slate-500 mt-1">
                 Common questions about timing, locations, wardrobe, and deliverables.

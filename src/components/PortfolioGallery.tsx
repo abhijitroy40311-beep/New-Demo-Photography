@@ -44,7 +44,7 @@ export const PortfolioGallery: React.FC = () => {
               A Look at Our Work
             </h2>
             <p className="text-sm sm:text-base text-slate-600">
-              Real moments. Real people. Real photography across Goa.
+              Real moments. Real people. Real photography across India.
             </p>
           </div>
 

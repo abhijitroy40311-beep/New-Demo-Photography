@@ -23,10 +23,10 @@ export const Footer: React.FC = () => {
               {BUSINESS_INFO.name}
             </h3>
             <p className="text-xs uppercase tracking-widest text-[#FDB863]">
-              {BUSINESS_INFO.hindiName} · Photography • Goa
+              {BUSINESS_INFO.hindiName} · Photography • India
             </p>
             <p className="text-xs sm:text-sm text-[#A89F93] leading-relaxed max-w-sm">
-              Capturing wedding vows, sunset couple shoots, lifestyle portraits and special celebrations naturally across Goa.
+              Capturing wedding vows, sunset couple shoots, lifestyle portraits and special celebrations naturally across India.
             </p>
             <p className="text-xs text-[#8C8377]">
               {BUSINESS_INFO.locationBrief}
@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-3">
             <span>5.0 ★ (532 Reviews)</span>
             <span aria-hidden="true">·</span>
-            <span>{BUSINESS_INFO.locationBrief}, Goa</span>
+            <span>{BUSINESS_INFO.locationBrief}, India</span>
           </div>
         </div>
 

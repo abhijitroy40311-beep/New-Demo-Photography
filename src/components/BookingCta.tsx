@@ -20,7 +20,7 @@ export const BookingCta: React.FC = () => {
           <div className="absolute inset-0 pointer-events-none opacity-30 select-none">
             <img
               src={ctaBgPhoto.src}
-              alt="Goa Photography Shoot Sunset"
+              alt="India Photography Shoot Sunset"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center"
             />
@@ -38,7 +38,7 @@ export const BookingCta: React.FC = () => {
 
               {/* Main Heading */}
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal tracking-tight text-white mb-4 leading-tight">
-                Planning a Photoshoot in Goa?
+                Planning a Photoshoot in India?
               </h2>
 
               {/* Copy */}
@@ -74,7 +74,7 @@ export const BookingCta: React.FC = () => {
             <div className="pt-8 mt-8 border-t border-white/10 flex flex-wrap items-center gap-4 text-xs text-slate-400">
               <span className="font-medium text-slate-200">Fastest response on WhatsApp</span>
               <span className="text-white/30">·</span>
-              <span>Available across North &amp; South Goa</span>
+              <span>Available across North &amp; South India</span>
               <span className="text-white/30">·</span>
               <span>Sunset golden hour slots fill quickly</span>
             </div>

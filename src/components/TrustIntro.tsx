@@ -33,13 +33,13 @@ export const TrustIntro: React.FC = () => {
             </p>
 
             <p className="text-xs text-slate-400">
-              Based in North Goa ({BUSINESS_INFO.locationBrief}). Welcoming couples, families, and travelers from around the world.
+              Based in North India ({BUSINESS_INFO.locationBrief}). Welcoming couples, families, and travelers from around the world.
             </p>
 
             {/* Review Keywords unboxed metadata */}
             <div className="pt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-slate-500">
               <span className="font-semibold text-slate-800">Review Highlights:</span>
-              <span>Goa photographer</span>
+              <span>India photographer</span>
               <span aria-hidden="true" className="text-slate-300">·</span>
               <span>Wedding photography</span>
               <span aria-hidden="true" className="text-slate-300">·</span>
@@ -75,7 +75,7 @@ export const TrustIntro: React.FC = () => {
                     {photoFatherSon.title}
                   </h3>
                   <p className="text-xs text-slate-500 mt-1">
-                    Gentle guidance and pure candid expressions under the bright Goa sun.
+                    Gentle guidance and pure candid expressions under the bright India sun.
                   </p>
                 </div>
               </div>

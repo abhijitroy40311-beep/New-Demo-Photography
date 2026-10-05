@@ -16,7 +16,7 @@ export const Services: React.FC = () => {
             Photography Services
           </h2>
           <p className="text-sm sm:text-base text-slate-600">
-            Thoughtfully planned sessions across Goa’s most picturesque beaches and coastlines. Focused on real emotion, soft natural lighting and timeless memories.
+            Thoughtfully planned sessions across India’s most picturesque beaches and coastlines. Focused on real emotion, soft natural lighting and timeless memories.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export const Services: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {SERVICES.map((service, index) => {
             const encodedText = encodeURIComponent(
-              `Hello ${BUSINESS_INFO.name}, I am interested in booking a ${service.title} session in Goa. Could you share your availability and pricing?`
+              `Hello ${BUSINESS_INFO.name}, I am interested in booking a ${service.title} session in India. Could you share your availability and pricing?`
             );
             const serviceWhatsAppUrl = `https://wa.me/${BUSINESS_INFO.phoneCall.replace('+', '')}/?text=${encodedText}`;
 
@@ -69,7 +69,7 @@ export const Services: React.FC = () => {
 
                 <div className="p-6 pt-4 border-t border-slate-100 mt-4 flex items-center justify-between">
                   <span className="text-xs text-slate-500 font-medium">
-                    Goa Shoot
+                    India Shoot
                   </span>
 
                   <a

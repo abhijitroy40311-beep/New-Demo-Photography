@@ -44,7 +44,7 @@ export class ErrorBoundary extends Component<Props, State> {
               {BUSINESS_INFO.name}
             </h1>
             <p className="text-sm text-slate-600 mb-6">
-              Welcome back to our Goa photography portfolio. Let's refresh the session smoothly.
+              Welcome back to our India photography portfolio. Let's refresh the session smoothly.
             </p>
             <button
               type="button"

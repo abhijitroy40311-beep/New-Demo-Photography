@@ -17,7 +17,7 @@ export const Reviews: React.FC = () => {
               Loved by Our Clients
             </h2>
             <p className="text-sm sm:text-base text-slate-600">
-              Real feedback from travelers, couples, and families in Goa.
+              Real feedback from travelers, couples, and families in India.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export const Reviews: React.FC = () => {
                 </div>
 
                 <span className="text-[11px] text-slate-400 font-mono">
-                  Goa Shoot
+                  India Shoot
                 </span>
               </div>
             </div>

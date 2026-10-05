@@ -37,7 +37,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio }) => {
       <div className="absolute inset-0 pointer-events-none overflow-hidden select-none opacity-20">
         <img
           src={bgImage.src}
-          alt="Goa Photography Background"
+          alt="India Photography Background"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-top scale-105 filter grayscale contrast-125"
         />
@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio }) => {
           {/* Small Label */}
           <div className="flex items-center gap-2 mb-3">
             <span className="text-[11px] sm:text-xs font-bold uppercase tracking-widest text-amber-600">
-              GOA PHOTOGRAPHER
+              India PHOTOGRAPHER
             </span>
             <span className="text-slate-300">·</span>
             <span className="flex items-center gap-1 text-[11px] sm:text-xs text-slate-500 font-medium">
@@ -64,7 +64,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio }) => {
 
           {/* Main Heading */}
           <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-slate-900 leading-[1.14] text-balance mb-4">
-            Capturing Your Best Moments in Goa
+            Capturing Your Best Moments in India
           </h1>
 
           {/* Supporting Text */}
@@ -189,7 +189,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio }) => {
               <MapPin className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-semibold text-slate-900">North &amp; South Goa</p>
+              <p className="text-xs font-semibold text-slate-900">North &amp; South India</p>
               <p className="text-[11px] text-slate-500">Beaches &amp; Villas</p>
             </div>
           </div>
