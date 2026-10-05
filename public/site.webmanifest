@@ -1,0 +1,16 @@
+{
+  "name": "Lumina Coast Photography Goa",
+  "short_name": "Lumina Coast",
+  "description": "Professional photography studio for weddings, couples, family and celebrations in Goa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1C1816",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
